@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Housem Shop | متجر ملابس رجالية</title>
+    <meta
+      name="description"
+      content="Housem Shop متجر ملابس رجالية أنيق وعصري، يقدم أحدث صيحات الملابس الرسمية واليومية بجودة عالية." 
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrapper">
+        <div class="brand-wrap">
+          <div class="brand-mark">H</div>
+          <div>
+            <span class="brand-name">Housem</span>
+            <small>SHOP</small>
+          </div>
+        </div>
+
+        <nav class="main-nav" aria-label="التنقل الرئيسي">
+          <a href="#home">الرئيسية</a>
+          <a href="#collections">التصنيفات</a>
+          <a href="#products">المنتجات</a>
+          <a href="#offers">العروض</a>
+          <a href="#reviews">التقييمات</a>
+          <a href="#contact">تواصل</a>
+        </nav>
+
+        <div class="nav-actions">
+          <button class="icon-button" aria-label="بحث">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10.5 3a7.5 7.5 0 015.94 12.56l4.39 4.39 1.41-1.41-4.39-4.39A7.5 7.5 0 1110.5 3zm0 2a5.5 5.5 0 104.24 9.4 5.5 5.5 0 00-4.24-9.4z"/></svg>
+          </button>
+          <button class="icon-button cart-button" aria-label="عربة التسوق">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 18a2 2 0 110 4 2 2 0 010-4zm10 0a2 2 0 110 4 2 2 0 010-4zM6.2 6h13.26l-1.82 7.98a2 2 0 01-1.97 1.57H9.14a2 2 0 01-1.98-1.53L5.14 4.6H2V2h4l.36 1.8H20a1 1 0 011 1v1H6.2zm2.2 9.5h8.78l1.25-5.5H7.1l1.3 5.5z"/></svg>
+            <span class="cart-badge" id="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <span class="eyebrow">ستايل أنيق لكِ كل يوم</span>
+            <h1>اكتشف أناقة رجولية عصرية.</h1>
+            <p>
+              تشكيلة من الملابس الرسمية واللأيام العادية، مصممة لتبرز أسلوبك بثقة
+              وراحة في كل مناسبة.
+            </p>
+            <div class="hero-actions">
+              <a href="#products" class="primary-btn">تسوق الآن</a>
+              <a href="#collections" class="secondary-btn">استكشف التصنيفات</a>
+            </div>
+            <ul class="hero-features">
+              <li>توصيل سريع</li>
+              <li>ضمان جودة</li>
+              <li>استرجاع سهل</li>
+            </ul>
+          </div>
+
+          <div class="hero-visual">
+            <div class="hero-card card-main">
+              <img
+                src="https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=900&q=80"
+                alt="رجل يرتدي ملابس أنيقة"
+              />
+            </div>
+            <div class="hero-badge badge-top">خصم 30%</div>
+            <div class="hero-badge badge-bottom">مميز لهذا الأسبوع</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="promo-strip" id="offers">
+        <div class="container promo-items">
+          <div>
+            <strong>شحن مجاني</strong>
+            <span>للطلبات فوق 300 ريال</span>
+          </div>
+          <div>
+            <strong>استرجاع سهل</strong>
+            <span>خلال 14 يوم</span>
+          </div>
+          <div>
+            <strong>خدمة عملاء</strong>
+            <span>متاحة طوال اليوم</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="categories" id="collections">
+        <div class="container">
+          <div class="section-head">
+            <span>تسوق حسب</span>
+            <h2>التصنيفات</h2>
+          </div>
+
+          <div class="category-grid">
+            <article class="category-card dark">
+              <div class="category-copy">
+                <span>ملابس يومية</span>
+                <h3>Casual</h3>
+              </div>
+              <img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=800&q=80" alt="ملابس يومية" />
+            </article>
+
+            <article class="category-card light">
+              <div class="category-copy">
+                <span>ملابس رسمية</span>
+                <h3>Formal</h3>
+              </div>
+              <img src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="ملابس رسمية" />
+            </article>
+
+            <article class="category-card dark">
+              <div class="category-copy">
+                <span>إكسسوارات</span>
+                <h3>Accessories</h3>
+              </div>
+              <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?auto=format&fit=crop&w=800&q=80" alt="إكسسوارات" />
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="products" id="products">
+        <div class="container">
+          <div class="section-head split">
+            <div>
+              <span>اختيارنا المميز</span>
+              <h2>أفضل المنتجات</h2>
+            </div>
+            <div class="filters" aria-label="تصفية المنتجات">
+              <button class="filter-btn active" data-filter="all">الكل</button>
+              <button class="filter-btn" data-filter="casual">يومية</button>
+              <button class="filter-btn" data-filter="formal">رسمية</button>
+              <button class="filter-btn" data-filter="accessories">إكسسوارات</button>
+            </div>
+          </div>
+
+          <div class="products-grid" id="products-grid"></div>
+        </div>
+      </section>
+
+      <section class="feature-banner">
+        <div class="container feature-wrap">
+          <div class="feature-copy">
+            <span>موسم الشتاء</span>
+            <h2>تشكيلة جديدة تناسب كل مناسبة</h2>
+            <p>
+              استمتع بملابس خفيفة، عصرية ومريحة مع لمسات أنيقة تضيف للستايل بأسلوب
+              مثالي.
+            </p>
+            <a href="#products" class="primary-btn">تسوق الآن</a>
+          </div>
+          <div class="feature-visual">
+            <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?auto=format&fit=crop&w=1000&q=80" alt="ملابس رجالية" />
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews" id="reviews">
+        <div class="container">
+          <div class="section-head">
+            <span>آراء العملاء</span>
+            <h2>ماذا يقول المشترون؟</h2>
+          </div>
+
+          <div class="review-grid">
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“الجودة ممتازة، والخياطة أنيقة جدًا، وملابسنا وصلت بسرعة وبدون أي مشكلة.”</p>
+              <div class="reviewer">
+                <strong>أحمد</strong>
+                <span>الرياض</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“أنا أحب الأسلوب الأسود الفاتح، وأفكر في شراء المزيد من المنتجات في أقرب وقت.”</p>
+              <div class="reviewer">
+                <strong>سعد</strong>
+                <span>جدة</span>
+              </div>
+            </article>
+
+            <article class="review-card">
+              <div class="stars">★★★★★</div>
+              <p>“الخدمة ممتازة والتصميم يعطي إحساس بالتميز والاحترافية، أنصح به.”</p>
+              <div class="reviewer">
+                <strong>خالد</strong>
+                <span>الدمام</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand-wrap footer-brand">
+            <div class="brand-mark">H</div>
+            <div>
+              <span class="brand-name">Housem</span>
+              <small>SHOP</small>
+            </div>
+          </div>
+          <p>
+            متجر عربي أنيق متخصص في الملابس الرجالية، يقدم أحدث التصاميم بأعلى جودة.
+          </p>
+        </div>
+
+        <div>
+          <h3>روابط سريعة</h3>
+          <ul>
+            <li><a href="#home">الرئيسية</a></li>
+            <li><a href="#collections">التصنيفات</a></li>
+            <li><a href="#products">المنتجات</a></li>
+            <li><a href="#offers">العروض</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3>تواصل معنا</h3>
+          <ul>
+            <li>support@housemshop.com</li>
+            <li>+966 55 123 4567</li>
+            <li>الرياض ، المملكة العربية السعودية</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="container footer-bottom">
+        <p>© 2026 Housem Shop. جميع الحقوق محفوظة.</p>
+      </div>
+    </footer>
+
+    <aside class="cart-drawer" id="cart-drawer" aria-label="عربة التسوق">
+      <div class="cart-header">
+        <h3>عربة التسوق</h3>
+        <button class="close-cart" aria-label="إغلاق">×</button>
+      </div>
+
+      <div class="cart-items" id="cart-items"></div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>الإجمالي</span>
+          <strong id="cart-total">0.00 ر.س</strong>
+        </div>
+        <button class="primary-btn checkout-btn">إتمام الطلب</button>
+      </div>
+    </aside>
+
+    <script src="script.js"></script>
+  </body>
+</html>
